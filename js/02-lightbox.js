@@ -1,6 +1,5 @@
 import { galleryItems } from "./gallery-items.js";
 
-// Change code below this line
 let gallery = document.querySelector(".gallery");
 
 gallery.insertAdjacentHTML(
