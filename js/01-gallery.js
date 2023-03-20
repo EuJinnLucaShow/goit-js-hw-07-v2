@@ -23,7 +23,7 @@ gallery.insertAdjacentHTML(
 
 gallery.addEventListener("click", (e) => {
   e.preventDefault();
-  const target = e.target;
+  const { target } = e;
 
   if (target.tagName === "IMG") {
     const largeImageSrc = target.getAttribute("data-source");
